@@ -46,6 +46,7 @@ img
 
 .link {
     text-decoration: none;
+    display: block;
 }
 
 .section {
@@ -132,12 +133,6 @@ img
 
 .site-nav .link:focus {
     color: #2196F3;
-}
-
-.auth-nav {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
 }
 
 .auth-li:not(:last-child) {
@@ -304,7 +299,7 @@ img
     margin-left: 30px;
 }
 
-.feature-box > .feature-list > li:first-child {
+.feature-list > li:first-child {
     margin-left: 0px;
   }
 
@@ -381,7 +376,7 @@ img
     letter-spacing: 0.03em;
 }
 
-.benefits-box > .content > li:first-child {
+.content > li:first-child {
     margin-left: 0px;
   }
 
